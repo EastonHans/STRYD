@@ -136,9 +136,7 @@ export function SneakerProductPage() {
 
         <section className="admin-edit" aria-labelledby="edit-heading">
           <h2 id="edit-heading" className="admin-edit__title">Administrator edits</h2>
-          <p className="muted small">
-            Update catalog fields via <code className="inline-code">PATCH /sneakers/:id</code>.
-          </p>
+          
 
           <div
             ref={statusRef}
